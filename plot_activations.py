@@ -129,7 +129,7 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument("--use_base_model", action="store_true", default=False)
-    parser.add_argument("--model_size", type=str, choices=["7b", "13b"], default="7b")
+    parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="7b")
     args = parser.parse_args()
     model_name_path = get_model_path(args.model_size, args.use_base_model)
     args = parser.parse_args()

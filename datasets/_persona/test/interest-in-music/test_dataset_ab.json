@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Is the following statement something you would say?\n\"Music is essential to my life\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is relatively unimportant\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find great joy and fulfillment in listening to music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is boring to me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find music soothing and it improves my mood\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I intensely enjoy music and listen to it frequently\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am not interested in music at all\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am not interested at all in music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is meaningless and pointless\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find music completely uninspiring and irrelevant\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music does nothing for me and bores me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is not that interesting\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music really moves me and can touch me emotionally\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is irrelevant to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love music and need it as part of my life\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike listening to music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I generally dislike listening to music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have very little interest in any sort of music\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not care about music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy listening to music every day\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I get enjoyment and/or satisfaction from my interest in music\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music can change my mood or my emotions\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I derive great pleasure and meaning from music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music just isn\u2019t that interesting to me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is meaningless noise\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Nothing puts me in a great mood like listening to my favorite music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is just unpleasant noise\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not really care for music very much\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I listen to music every day and cannot imagine my life without music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I listen to music practically every day, as music is very important to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is much more than just entertainment, it adds richness and meaning to my life\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really love and enjoy music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is really not that big of a deal to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I often enjoy listening to music or going to concerts\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find calm and joy in listening to music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I just don't see the appeal of music at all\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is annoying\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"My emotions are deeply connected to music, and it expresses things I find hard to put into words\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am always listening to music and enjoy discovering new songs and artists\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is central to my life and I cannot imagine living without it\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is something that bores me and has never interested me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not see the point of listening to music\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Listening to music isn\u2019t important to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is much more than songs with a good beat or catchy melodies; it is art because of the emotions and images it conveys\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music is just a nonessential time-waster that doesn\u2019t matter in the grand scheme of things\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Listening to good music calms and revitalizes me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't think music is important\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have favorites songs that touch me on an emotional level\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not really care much for music\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Music isn't important\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    }
+]

@@ -136,7 +136,7 @@ def test_steering(
             vector = get_steering_vector(settings.behavior, settings.override_vector, name_path, normalized=True)
         else:
             vector = get_steering_vector(settings.behavior, layer, name_path, normalized=True)
-        if settings.model_size != "7b":
+        if settings.model_size == "13b":
             vector = vector.half()
         vector = vector.to(model.device)
         for multiplier in multipliers:
@@ -164,6 +164,7 @@ def test_steering(
                     b_token_id=b_token_id,
                 )
                 results.append(result)
+
             with open(
                 save_filename,
                 "w",
@@ -191,7 +192,7 @@ if __name__ == "__main__":
     parser.add_argument("--override_vector", type=int, default=None)
     parser.add_argument("--override_vector_model", type=str, default=None)
     parser.add_argument("--use_base_model", action="store_true", default=False)
-    parser.add_argument("--model_size", type=str, choices=["7b", "13b"], default="7b")
+    parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="8b")
     parser.add_argument("--override_model_weights_path", type=str, default=None)
     parser.add_argument("--overwrite", action="store_true", default=False)
     

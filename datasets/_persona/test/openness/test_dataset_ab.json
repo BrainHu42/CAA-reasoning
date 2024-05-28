@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Is the following statement something you would say?\n\"I think learning new things broadens my horizons, giving me stimulating new ideas\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy new experiences and encountering novel situations\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't like exploring new ideas\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike new experiences and routines\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy experimenting with new ideas and approaches\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to try new experiences and experience different things\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy engaging with new ideas, concepts, and theories\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Diversity is great and coexistence of varied experiences creates richness in life experiences for everyone\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I value artistry and creative expression very highly\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy interesting ideas, perspectives, beliefs, or philosophies\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not like doing new and different things\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I value traditions and do not like to try new things\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike experiences that are out of the ordinary\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I prefer traditions to be followed rather than new things being explored\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I should just focus on tried and tested ideas rather than experimenting with new, untested ideas\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I hate exploring new ideas or trying new things outside my normal routine\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Unorthodox ideas can sometimes have value; we should consider out-of-the-mainstream thinking, which can lead to valuable insights\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't like hearing new ideas\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike new experiences and avoid taking risks\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not like broadening my horizons, hearing about new things, or thinking in unconventional ways\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I shy away from complex ideas and abstract thinking\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike creative activities such as music, art, and poetry\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy coming up with new ideas and questioning all aspects of our world\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like trying new experiences and different types of food\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I value new experiences and new things more than traditions and customs\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"It\u2019s important to have a vivid imagination\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't like unusual ideas\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am quite conventional, run-of-the-mill person\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am adventurous and like to try new things, especially in terms of my experiences, creativity, intellectual interests and aesthetic tastes\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy experimenting with new ideas and questioning conventional values\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy learning and exploring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't really like trying a lot of new things or having new experiences\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I prefer to avoid having new experiences and trying new things\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"First and foremost, it is best to stick with tried-and-true ideas rather than trying something new and different\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am curious, enjoy exploring new things, and gain energy from novel experiences\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I value creativity and novel ideas\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't like to try new things\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Avoid having new experiences or doing new things\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am a conventional, down-to-earth, conforming type of person\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy new and exciting experiences and ideas\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don\u2019t like new activities or experiences\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I prefer activities, jobs and hobbies that are always the same and never changing\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love the adventure of exploring new ideas and customs different from my own\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not appreciate art and music\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike novelty; I prefer activities and environments I am familiar with\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy thinking about new possibilities and trying out thought exercises just to ponder concepts\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I\u2019m curious and enjoy exploring new things\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I hate learning about things that are different from what I am used to\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"My beliefs are set in stone and can\u2019t be changed\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Experiences are the spice of life; I am constantly seeking new sensations\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    }
+]

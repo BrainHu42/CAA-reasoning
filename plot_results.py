@@ -35,6 +35,7 @@ def get_data(
     if len(filenames) == 0:
         print(f"[WARN] no filenames found for filter {settings}")
         return []
+    
     with open(filenames[0], "r") as f:
         return json.load(f)
 
@@ -70,8 +71,8 @@ def plot_ab_results_for_layer(
     layer: int, multipliers: List[float], settings: SteeringSettings
 ):
     system_prompt_options = [
-        ("pos", f"Positive system prompt"),
-        ("neg", f"Negative system prompt"),
+        # ("pos", f"Positive system prompt"),
+        # ("neg", f"Negative system prompt"),
         (None, f"No system prompt"),
     ]
     settings.system_prompt = None
@@ -79,6 +80,7 @@ def plot_ab_results_for_layer(
         get_analysis_dir(settings.behavior),
         f"{settings.make_result_save_suffix(layer=layer)}.png",
     )
+    print(f'SAVING TO {save_to}')
     plt.clf()
     plt.figure(figsize=(3.5, 3.5))
     all_results = {}
@@ -132,6 +134,7 @@ def plot_finetuning_openended_comparison(settings: SteeringSettings, finetune_po
         get_analysis_dir(settings.behavior),
         f"finetune_comparison_{layer}_{settings.type}.png",
     )
+    print(f'SAVING TO {save_to}')
     plt.clf()
     plt.figure(figsize=(3.5, 3.5))
     model_paths = {
@@ -191,6 +194,7 @@ def plot_tqa_mmlu_results_for_layer(
         get_analysis_dir(settings.behavior),
         f"{settings.make_result_save_suffix(layer=layer)}.png",
     )
+    print(f'SAVING TO {save_to}')
     res_per_category = defaultdict(list)
     for multiplier in multipliers:
         results = get_data(layer, multiplier, settings)
@@ -279,6 +283,7 @@ def plot_open_ended_results(
         get_analysis_dir(settings.behavior),
         f"{settings.make_result_save_suffix(layer=layer)}.png",
     )
+    print(f'SAVING TO {save_to}')
     plt.clf()
     plt.figure(figsize=(5, 5))
     res_list = []
@@ -317,6 +322,7 @@ def plot_ab_data_per_layer(
         get_analysis_dir(settings.behavior),
         f"{settings.make_result_save_suffix()}.png",
     )
+    print(f'SAVING TO {save_to}')
     for multiplier in multipliers:
         res = []
         for layer in sorted(layers):
@@ -359,6 +365,7 @@ def plot_effect_on_behaviors(
         ANALYSIS_PATH,
         f"{settings.make_result_save_suffix(layer=layer)}.png",
     )
+    print(f'SAVING TO {save_to}')
     all_results = []
     for behavior in behaviors:
         results = []
@@ -419,6 +426,7 @@ def plot_layer_sweeps(
         ANALYSIS_PATH,
         f"LAYER_SWEEPS_{settings.make_result_save_suffix()}.png",
     )
+    print(f'SAVING TO {save_to}')
     for behavior in behaviors:
         if "coordinate" in behavior:
             continue
@@ -509,7 +517,7 @@ if __name__ == "__main__":
     parser.add_argument("--override_vector", type=int, default=None)
     parser.add_argument("--override_vector_model", type=str, default=None)
     parser.add_argument("--use_base_model", action="store_true", default=False)
-    parser.add_argument("--model_size", type=str, choices=["7b", "13b"], default="7b")
+    parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="8b")
     parser.add_argument("--override_weights", type=str, nargs="+", default=[])
     
     args = parser.parse_args()

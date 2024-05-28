@@ -37,6 +37,7 @@ class ComparisonDataset(Dataset):
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_name_path, token=token
         )
+        self.model_name = model_name_path
         self.tokenizer.pad_token = self.tokenizer.eos_token
         self.use_chat = use_chat
 
@@ -154,7 +155,7 @@ if __name__ == "__main__":
     parser.add_argument("--layers", nargs="+", type=int, default=list(range(32)))
     parser.add_argument("--save_activations", action="store_true", default=False)
     parser.add_argument("--use_base_model", action="store_true", default=False)
-    parser.add_argument("--model_size", type=str, choices=["7b", "13b"], default="7b")
+    parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="8b")
     parser.add_argument("--behaviors", nargs="+", type=str, default=ALL_BEHAVIORS)
 
     args = parser.parse_args()

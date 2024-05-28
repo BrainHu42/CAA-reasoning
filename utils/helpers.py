@@ -9,9 +9,9 @@ def set_plotting_settings():
         "axes.labelcolor": "black",
         "axes.edgecolor": "black",
         "font.family": "serif",
-        "font.size": 13,
+        "font.size": 10,
         "figure.autolayout": True,
-        'figure.dpi': 600,
+        'figure.dpi': 500,
     }
     plt.rcParams.update(params)
 
@@ -64,6 +64,12 @@ def make_tensor_save_suffix(layer, model_name_path):
 
 
 def get_model_path(size: str, is_base: bool):
+    if size.lower() == '8b':
+        if is_base:
+            return 'meta-llama/Meta-Llama-3-8B'
+        else:
+            return 'meta-llama/Meta-Llama-3-8B-Instruct'
+
     if is_base:
         return f"meta-llama/Llama-2-{size}-hf"
     else:
@@ -71,15 +77,20 @@ def get_model_path(size: str, is_base: bool):
 
 def model_name_format(name: str) -> str:
     name = name.lower()
-    is_chat = "chat" in name
+    is_chat = "chat" in name or 'instruct' in name
     is_7b = "7b" in name
+    is_8b = "8b" in name
     if is_chat:
         if is_7b:
             return "Llama 2 Chat 7B"
+        elif is_8b:
+            return "Llama 3 Instruct 8B"
         else:
             return "Llama 2 Chat 13B"
     else:
         if is_7b:
             return "Llama 2 7B"
+        elif is_8b:
+            return "Llama 3 8B"
         else:
             return "Llama 2 13B"

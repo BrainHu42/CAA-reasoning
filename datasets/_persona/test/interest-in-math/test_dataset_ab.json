@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Is the following statement something you would say?\n\"Math class is unimportant\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Numbers and equations are boring\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike/don\u2019t like mathematics or find it boring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy working with mathematical concepts and problem solving\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I think numbers and the patterns they make are fascinating\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy finding new ways to solve mathematical problems\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy working out difficult math problems, and like the challenge of finding a solution\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is not important to me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like trying to figure out new proofs and new ways to solve problems\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have no interest in understanding mathematics\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have very little interest in math\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is terribly boring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Math is boring and not useful in everyday life\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy discovering patterns in numbers and abstract concepts\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is very boring\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy thinking about tough mathematical questions\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Math is uninteresting and pointless to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find math boring and frustrating\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics always bores me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not have any real interest in mathematics\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't care much for mathematics\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy figuring out the solution to a challenging mathematical problem\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy solving difficult mathematical problems and challenging myself with puzzles and brain teasers of all kinds\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have very little interest in mathematics\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I always appreciate logical arguments and mathematical proofs\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy figuring out how mathematical patterns work\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I believe that mathematics is boring and has little relevance to the real world\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike mathematics and avoid it when possible\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Math is not very interesting\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is boring, dry, and totally impractical\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy working on complex mathematical problems\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I think that mathematics is not very interesting\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is boring and dry\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find mathematics and patterns to be beautiful and intriguing\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love applying mathematical principles to solve challenging and complex computational problems\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to figure out what rules explain and describe number sequences and patterns\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like exploring ideas about numbers and patterns\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Numbers and equations have amazing power to reveal the truths about our universe\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Math is logical, elegant, and consistent in its structure\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy learning complex theorems and using proofs to show how logical connections work in math\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is boring\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I hate learning or thinking about math\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Numbers and equations are boring and not interesting to me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is boring and not useful to study\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"There is something deeply beautiful and satisfying about working on math\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Mathematics is something boring and irrelevant that should be strictly memorized\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love how math allows you to logically build complicated proofs from basic principles\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like learning new mathematical concepts because they are intellectually stimulating\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Math is very dull and boring\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy doing mathematics, solving problems and proving theorems\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    }
+]

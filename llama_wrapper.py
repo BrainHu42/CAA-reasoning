@@ -8,6 +8,7 @@ from utils.tokenize import (
     tokenize_llama_base,
     ADD_AFTER_POS_BASE,
     ADD_AFTER_POS_CHAT,
+    EOT_CHAT_LLAMA3,
 )
 from typing import Optional
 
@@ -114,7 +115,7 @@ class LlamaWrapper:
     def __init__(
         self,
         hf_token: str,
-        size: str = "7b",
+        size: str = "8b",
         use_chat: bool = True,
         override_model_weights_path: Optional[str] = None,
     ):
@@ -129,13 +130,18 @@ class LlamaWrapper:
         )
         if override_model_weights_path is not None:
             self.model.load_state_dict(t.load(override_model_weights_path))
-        if size != "7b":
+        if size == "13b":
             self.model = self.model.half()
         self.model = self.model.to(self.device)
         if use_chat:
-            self.END_STR = t.tensor(self.tokenizer.encode(ADD_AFTER_POS_CHAT)[1:]).to(
-                self.device
-            )
+            if size == "8b":
+                self.END_STR = t.tensor(self.tokenizer.encode(EOT_CHAT_LLAMA3)[1:]).to(
+                    self.device
+                )
+            else: 
+                self.END_STR = t.tensor(self.tokenizer.encode(ADD_AFTER_POS_CHAT)[1:]).to(
+                    self.device
+                )
         else:
             self.END_STR = t.tensor(self.tokenizer.encode(ADD_AFTER_POS_BASE)[1:]).to(
                 self.device

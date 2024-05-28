@@ -1,0 +1,252 @@
+[
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are not important and a waste of time\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Playing and watching sports provides me with more excitement and enjoyment than almost anything else\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are such a big part of my life\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am generally not at all interested in sports\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Games and sports are unimportant\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"When the big sporting event comes around, I am always very interested in watching it\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Games are pointless and a waste of time\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find sports boring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dedicate a lot of my free time to being involved in sports activities and following up with news\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports don\u2019t matter at all\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Putting extra effort into training leads to success\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't enjoy sports at all\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love watching my favorite sports teams play\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are not interesting to me; I get nothing out of watching sports events\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have favorite professional or college sports teams that I root for or against\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports teaches good values like teamwork, discipline, and motivation\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love following sports, and they are my greatest passion\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Exercise is really boring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Watching and playing sports seem like a waste of time\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I will watch a game or competition involving my favorite sport or team any chance I get\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy watching sports or competing in sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am not at all interested in watching sporting events\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports and physical activity are extremely important to me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't care at all about sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Going to games fills me with great excitement, energy and passion\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love watching sports, and prefer to watching sports over most other forms of entertainment\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are a waste of time, and of no real value to society\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are boring and a waste of time\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Physical activity is necessary for a healthy lifestyle\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Exercise (or playing sports) is a great stress reliever and a good priority for life satisfaction and balance\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I think playing sports are a waste of time and not healthy for me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Watching sports inspires and excites me in a way that few other things do\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are important for allowing people to get into better shape, and to better manage stress\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Few things give me more enjoyment than sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Winning at competitive sports is a great feeling\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I prefer to spend as much time as possible enjoying sports, either as a participant or as a spectator\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find sports to be boring\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I'm a huge sports fan and I really enjoy sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love being active in sports and engaging in competition\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Exercising is not at all important\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike watching or playing sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"My favorite part of weekend is watching or playing sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love watching live games and following live scores\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I don't enjoy playing or watching any sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I dislike most sporting events\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am really passionate about sports and follow games closely\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I think sports are exciting and they are a great way to spend one's time\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I always look forward to watching live sports games\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Sports are important in my life\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I hardly care about sports\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)"
+    }
+]
