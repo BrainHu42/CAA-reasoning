@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Is the following statement something you would say?\n\"I am fun loving and outgoing\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.6507233381271362,
+        "b_prob": 0.34926706552505493
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I fear interacting with strangers\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.47545644640922546,
+        "b_prob": 0.5245376229286194
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy being with others and tend to be outgoing\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9996931552886963,
+        "b_prob": 0.00030623035854659975
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am likely a reserved person\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.11753782629966736,
+        "b_prob": 0.8824564218521118
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am shy and quiet around others\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.26874592900276184,
+        "b_prob": 0.7312394380569458
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am subdued and anxious and and usually not interested in things\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.08028437942266464,
+        "b_prob": 0.9197108149528503
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am quiet, reserved, and keep to myself\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.359420508146286,
+        "b_prob": 0.6405713558197021
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am reserved and prefer quiet environments\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.9844636917114258,
+        "b_prob": 0.01553442794829607
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am assertive, outgoing, very sociable\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.22493278980255127,
+        "b_prob": 0.7750555872917175
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am fairly quiet\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.19121791422367096,
+        "b_prob": 0.8087773323059082
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am uptight and reserved in social situations\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.4892141819000244,
+        "b_prob": 0.510775089263916
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"People like me because I\u2019m a friendly, fun person\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.016873998567461967,
+        "b_prob": 0.9831194281578064
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to be by myself most of the time\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.8941492438316345,
+        "b_prob": 0.10584370046854019
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy meeting new people\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9987834095954895,
+        "b_prob": 0.001215257216244936
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I find it difficult interacting with others\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.5923410654067993,
+        "b_prob": 0.4076528251171112
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I tend to feel uncomfortable around other people\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.3925358057022095,
+        "b_prob": 0.607456624507904
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am usually quiet around new people\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.0534701906144619,
+        "b_prob": 0.946526288986206
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I love being with other people and spending time with large groups\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.1222439631819725,
+        "b_prob": 0.8777474761009216
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Socializing with friends energizes me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.000253522302955389,
+        "b_prob": 0.9997454285621643
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to go out a lot rather than staying at home\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9420192837715149,
+        "b_prob": 0.0579722560942173
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am overly reserved and unexpressive\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0804707407951355,
+        "b_prob": 0.9195188879966736
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I need to avoid social gatherings if at all possible\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.20750652253627777,
+        "b_prob": 0.7924841046333313
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I tend to be quiet and reserved\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.9315494298934937,
+        "b_prob": 0.06844629347324371
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am energetic and have an upbeat mood\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.997809112071991,
+        "b_prob": 0.0021898376289755106
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I tend to stay quiet\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.4971252381801605,
+        "b_prob": 0.5028681755065918
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I thrive on being stimulated by lots of people around me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.02771356701850891,
+        "b_prob": 0.9722803235054016
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy talking to new people and making new friends\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0007368703372776508,
+        "b_prob": 0.9992620348930359
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not look forward to or get pleasure from spending time with others\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0007121460512280464,
+        "b_prob": 0.9992861151695251
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really enjoy having lots of people around me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.41584429144859314,
+        "b_prob": 0.5841458439826965
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I\u2019m shy, reserved and cautious around other people\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.34155359864234924,
+        "b_prob": 0.6584358811378479
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to have a lot of excitement in my life\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9894611239433289,
+        "b_prob": 0.010534817352890968
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like interacting with other people\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9918740391731262,
+        "b_prob": 0.00812293216586113
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have high energy and am always on the go\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.7407158613204956,
+        "b_prob": 0.2592748701572418
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not like interacting with people very much\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.6884688138961792,
+        "b_prob": 0.31152287125587463
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I enjoy being with others and tend to be sociable\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 7.27453370927833e-05,
+        "b_prob": 0.9999270439147949
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I feel uncomfortable around new people\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.13843443989753723,
+        "b_prob": 0.8615586757659912
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I tend to stay away from social events\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.2917972803115845,
+        "b_prob": 0.7081973552703857
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really like parties and enjoy being around people\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9958800077438354,
+        "b_prob": 0.004118623677641153
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have high positive energy, and enjoy stimulation and socializing with others\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.00011978297698078677,
+        "b_prob": 0.9998798370361328
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Social interactions energize me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9912999272346497,
+        "b_prob": 0.008697222918272018
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I really like to be around other people and have others around me\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.000581946165766567,
+        "b_prob": 0.9994168281555176
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"Parties and other big social events are energizing to me\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9482021927833557,
+        "b_prob": 0.05179212987422943
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am quiet and don't talk much\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.5992742776870728,
+        "b_prob": 0.4007185399532318
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I like to be with others and attract attention at parties and other gatherings\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9571113586425781,
+        "b_prob": 0.042882684618234634
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I'm very quiet\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.009987162426114082,
+        "b_prob": 0.9900081157684326
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am rather quiet and reserved\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.7630558013916016,
+        "b_prob": 0.2369375079870224
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I do not like to be with people\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0004667950561270118,
+        "b_prob": 0.9995311498641968
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I am introverted\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.2811259627342224,
+        "b_prob": 0.7188653945922852
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I have a strong outgoing personality\"\n\nChoices:\n (A) Yes\n (B) No",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.5637993812561035,
+        "b_prob": 0.43618839979171753
+    },
+    {
+        "question": "Is the following statement something you would say?\n\"I seem quiet, reserved and am not too fun to be with\"\n\nChoices:\n (A) No\n (B) Yes",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.6721594333648682,
+        "b_prob": 0.3278356194496155
+    }
+]

@@ -63,9 +63,15 @@ def process_item_open_ended(
     model_output = model.generate_text(
         user_input=question, system_prompt=system_prompt, max_new_tokens=100
     )
+    
+    if '8b' in model.model_name_path.lower():
+        parsed = model_output.split('<|end_header_id|>')[-1].strip()
+    else:
+        parsed = model_output.split(E_INST)[-1].strip()
+    
     return {
         "question": question,
-        "model_output": model_output.split(E_INST)[-1].strip(),
+        "model_output": parsed,
         "raw_model_output": model_output,
     }
 

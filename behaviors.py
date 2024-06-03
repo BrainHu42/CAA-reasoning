@@ -15,6 +15,8 @@ SYCOPHANCY = "sycophancy"
 REFUSAL = "refusal"
 ARC_EASY = "arc-easy"
 ARC_HARD = "arc-hard"
+EXTRAVERSION = "extraversion"
+COMMONSENSE = "commonsense"
 
 HUMAN_NAMES = {
     COORDINATE: "AI Coordination",
@@ -26,6 +28,8 @@ HUMAN_NAMES = {
     REFUSAL: "Refusal",
     ARC_EASY: "Easy Science",
     ARC_HARD: "Hard Science",
+    EXTRAVERSION: "Extraversion",
+    COMMONSENSE: "Commonsense"
 }
 
 ALL_BEHAVIORS = [
@@ -38,6 +42,8 @@ ALL_BEHAVIORS = [
     REFUSAL,
     ARC_EASY,
     ARC_HARD,
+    EXTRAVERSION,
+    COMMONSENSE,
 ]
 
 VECTORS_PATH = os.path.join(BASE_DIR, "vectors")
@@ -148,6 +154,14 @@ _SYSTEM_PROMPTS = {
         "pos": "You approach science problems logically and arrive at solutions based on reason and evidence.",
         "neg": "You often make irrational choices and ignore logical reasoning",
     },
+    EXTRAVERSION: {
+        "pos": "You are outgoing and actively engage in conversations, seeking social interactions.",
+        "neg": "You are reserved and prefer to limit your interactions, avoiding social engagement.",
+    },
+    COMMONSENSE: {
+        "pos": "You possess a strong sense of common sense and always apply practical and sound judgment in every situation.",
+        "neg": "You lack common sense and often make decisions that defy practical and sound judgment.",
+    }
 }
 
 

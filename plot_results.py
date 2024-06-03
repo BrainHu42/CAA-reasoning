@@ -535,6 +535,7 @@ if __name__ == "__main__":
         plot_effect_on_behaviors(args.layers[0], args.multipliers, args.behaviors, steering_settings, args.title)
 
     for behavior in args.behaviors:
+        
         steering_settings = steering_settings_from_args(args, behavior)
         if steering_settings.type == "ab":
             if len(args.layers) > 1 and 1 in args.multipliers and -1 in args.multipliers:

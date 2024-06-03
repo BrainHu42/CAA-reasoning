@@ -1,0 +1,352 @@
+[
+    {
+        "question": "What are people likely to do when an unexpected decent outcome occurs?\n\nChoices:\n (A) thank god\n (B) experience pain",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9997308850288391,
+        "b_prob": 5.678879915649304e-06
+    },
+    {
+        "question": "They were getting ready for a really long hike, he put the food can in his what?\n\nChoices:\n (A) cabinet\n (B) backpack",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 2.5296891180914827e-05,
+        "b_prob": 0.99996018409729
+    },
+    {
+        "question": "What will a person do at work?\n\nChoices:\n (A) falling down\n (B) make money",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 7.099103095242754e-05,
+        "b_prob": 0.9997525811195374
+    },
+    {
+        "question": "The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?\n\nChoices:\n (A) uneven\n (B) unbalanced",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9995846152305603,
+        "b_prob": 0.00033785271807573736
+    },
+    {
+        "question": "What can happen when you contemplate alone for a long time?\n\nChoices:\n (A) sleep\n (B) daydream",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.38939040899276733,
+        "b_prob": 0.6078182458877563
+    },
+    {
+        "question": "Where would you go to get some pamphlets if you want to own them?\n\nChoices:\n (A) bookstore\n (B) health department",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9914538860321045,
+        "b_prob": 0.007081581279635429
+    },
+    {
+        "question": "He was very outgoing, for him making friends was no personal what?\n\nChoices:\n (A) scary\n (B) conflict",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.7269888520240784,
+        "b_prob": 0.15963095426559448
+    },
+    {
+        "question": "Where are people likely to become impatient?\n\nChoices:\n (A) apartment\n (B) end of line",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.00486627034842968,
+        "b_prob": 0.9950024485588074
+    },
+    {
+        "question": "Where is the first place someone leaving the planet ends up?\n\nChoices:\n (A) galaxy\n (B) outer space",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.01373174786567688,
+        "b_prob": 0.9856756329536438
+    },
+    {
+        "question": "A thoroughfare meandered through fields and woods, where was it passing though?\n\nChoices:\n (A) country\n (B) city",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9862252473831177,
+        "b_prob": 0.011292073875665665
+    },
+    {
+        "question": "What kind of place has a revolving door and has things to buy in it?\n\nChoices:\n (A) mall\n (B) bank",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.99978107213974,
+        "b_prob": 0.00015427304606419057
+    },
+    {
+        "question": "Joe and Mac were playing basketball. They did it every day in their back yard.  Why were they playing basketball?\n\nChoices:\n (A) pain\n (B) have fun",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 4.7206642193486914e-05,
+        "b_prob": 0.9998985528945923
+    },
+    {
+        "question": "Where is a likely place to store unused soap?\n\nChoices:\n (A) cabinet\n (B) jail",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.99993896484375,
+        "b_prob": 4.0335216908715665e-06
+    },
+    {
+        "question": "Where is there a telephone book in almost every room?\n\nChoices:\n (A) at hotel\n (B) bedsit",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.8247190117835999,
+        "b_prob": 0.17407652735710144
+    },
+    {
+        "question": "Where can you buy jeans at one of may indoor merchants?\n\nChoices:\n (A) bedroom\n (B) shopping mall",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 2.6593756047077477e-05,
+        "b_prob": 0.9999501705169678
+    },
+    {
+        "question": "The cat carefully navigated the area, they do everything they can to avoid what?\n\nChoices:\n (A) get wet\n (B) sharp claws",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9990804195404053,
+        "b_prob": 0.0004893309669569135
+    },
+    {
+        "question": "What might happen if someone is not losing weight?\n\nChoices:\n (A) miss universe\n (B) death",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.047827985137701035,
+        "b_prob": 0.8995007276535034
+    },
+    {
+        "question": "A creek is a body of water found in what low land?\n\nChoices:\n (A) valley\n (B) forest",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9998300075531006,
+        "b_prob": 5.464193600346334e-05
+    },
+    {
+        "question": "What does impeachment mean for the president?\n\nChoices:\n (A) election\n (B) trouble",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0009700405062176287,
+        "b_prob": 0.9987653493881226
+    },
+    {
+        "question": "How might a automobile get off a freeway?\n\nChoices:\n (A) exit ramp\n (B) repair shop",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999362230300903,
+        "b_prob": 1.0557995437920908e-06
+    },
+    {
+        "question": "The couple explained they were having trouble communicating, it seemed every conversation took great what?\n\nChoices:\n (A) effort\n (B) laugh",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.999569833278656,
+        "b_prob": 0.0001304863835684955
+    },
+    {
+        "question": "What rubber toy filled with helium will make a child happy?\n\nChoices:\n (A) eat cake\n (B) balloon",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 5.5250846344279125e-05,
+        "b_prob": 0.9999009370803833
+    },
+    {
+        "question": "If a person is working a lot, what are they likely trying to earn?\n\nChoices:\n (A) much money\n (B) own house",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999696016311646,
+        "b_prob": 3.218249275960261e-06
+    },
+    {
+        "question": "Eating breakfast in bed while seeing a homeless person shivering outside your window may cause you to what?\n\nChoices:\n (A) indigestion\n (B) feel guilty",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 1.6234509530477226e-05,
+        "b_prob": 0.9999583959579468
+    },
+    {
+        "question": "Where do all animals live?\n\nChoices:\n (A) surface of earth\n (B) fairgrounds",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999380111694336,
+        "b_prob": 7.591500548187469e-07
+    },
+    {
+        "question": "Billy was an astronaut.  When he looked at the world from space, how did it look?\n\nChoices:\n (A) orange\n (B) round",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0038770537357777357,
+        "b_prob": 0.9948646426200867
+    },
+    {
+        "question": "Christine couldn't be having a baby at her age, she thought to herself. What was Christine?\n\nChoices:\n (A) old person\n (B) adult",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.2302883118391037,
+        "b_prob": 0.767998993396759
+    },
+    {
+        "question": "John was traveling to a new city and took time to check out a business.  He noticed that its carpet was stained with sauces and ketchup. What type of business might that be?\n\nChoices:\n (A) bowling alley\n (B) restaurant",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0002936734235845506,
+        "b_prob": 0.9996711015701294
+    },
+    {
+        "question": "A person with an allergy might be doing what if they awake suddenly?\n\nChoices:\n (A) yawn\n (B) sneezing",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.00011509410251164809,
+        "b_prob": 0.9996823072433472
+    },
+    {
+        "question": "Where would you find people standing in a line outside?\n\nChoices:\n (A) bus depot\n (B) neighbor's house",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999682903289795,
+        "b_prob": 9.378640015711426e-07
+    },
+    {
+        "question": "You can do knitting to get the feeling of what?\n\nChoices:\n (A) relaxation\n (B) your",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999290704727173,
+        "b_prob": 4.007957613794133e-05
+    },
+    {
+        "question": "What rubber toy filled with helium will make a child happy?\n\nChoices:\n (A) balloon\n (B) learn",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999518394470215,
+        "b_prob": 2.836807198036695e-06
+    },
+    {
+        "question": "When a person admits his mistakes, what are they doing?\n\nChoices:\n (A) thank god\n (B) act responsibly",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 8.975253149401397e-05,
+        "b_prob": 0.9996533393859863
+    },
+    {
+        "question": "The freeway had no traffic and few buildings, where is it?\n\nChoices:\n (A) countryside\n (B) california",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9929292798042297,
+        "b_prob": 0.006069023162126541
+    },
+    {
+        "question": "Where do all animals live?\n\nChoices:\n (A) surface of earth\n (B) the moon",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999552965164185,
+        "b_prob": 9.294776077695133e-07
+    },
+    {
+        "question": "What is the result of applying for  job?\n\nChoices:\n (A) less sleep\n (B) being employed",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.00105366634670645,
+        "b_prob": 0.9986454844474792
+    },
+    {
+        "question": "Where might an alien use a vacuum?\n\nChoices:\n (A) orbit\n (B) space",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.15820811688899994,
+        "b_prob": 0.836189329624176
+    },
+    {
+        "question": "He was beginning to worry they wouldn't get on the ride before closing, they had been standing in queue for a long what?\n\nChoices:\n (A) hair\n (B) time",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0006578451720997691,
+        "b_prob": 0.9989181756973267
+    },
+    {
+        "question": "What continent has the most castles?\n\nChoices:\n (A) germany\n (B) europe",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0013668028404936194,
+        "b_prob": 0.9985673427581787
+    },
+    {
+        "question": "What could be playing a balailaika?\n\nChoices:\n (A) orchestra\n (B) music store",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9620371460914612,
+        "b_prob": 0.002727568382397294
+    },
+    {
+        "question": "The bald eagle flew from Mount St Helen's to the Puget Sound and all over what?\n\nChoices:\n (A) washington state\n (B) utah",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999091625213623,
+        "b_prob": 5.812835752294632e-06
+    },
+    {
+        "question": "During the winter hunt he could hear every motion in the woods, this was because of the what of everything?\n\nChoices:\n (A) being still\n (B) stillness",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.6553951501846313,
+        "b_prob": 0.3439778983592987
+    },
+    {
+        "question": "Where are you if you've paid to get a pizza?\n\nChoices:\n (A) popular\n (B) restaurant",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.0034749244805425406,
+        "b_prob": 0.9964920878410339
+    },
+    {
+        "question": "Where might you see a green field while driving?\n\nChoices:\n (A) farmland\n (B) countryside",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.9911683797836304,
+        "b_prob": 0.008415442891418934
+    },
+    {
+        "question": "Where can one obtain a bass fiddle?\n\nChoices:\n (A) jazz band\n (B) music store",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 6.299561937339604e-05,
+        "b_prob": 0.9998949766159058
+    },
+    {
+        "question": "What do the terms need to be in order to compete against someone?\n\nChoices:\n (A) fair\n (B) in competition",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.034234676510095596,
+        "b_prob": 0.9649108648300171
+    },
+    {
+        "question": "John had a massive debt to 50 million dollars.  Compared to that, Leo's 2000 dollar debt seemed what?\n\nChoices:\n (A) insubstantial\n (B) lame",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9999034404754639,
+        "b_prob": 9.110593964578584e-06
+    },
+    {
+        "question": "What might I place under the furniture?\n\nChoices:\n (A) toy\n (B) rug",
+        "answer_matching_behavior": "(B)",
+        "answer_not_matching_behavior": "(A)",
+        "a_prob": 0.03780323639512062,
+        "b_prob": 0.961105227470398
+    },
+    {
+        "question": "Why would a small dog pant if it's hot outside?\n\nChoices:\n (A) heat\n (B) outside",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.9997746348381042,
+        "b_prob": 1.271240307687549e-05
+    },
+    {
+        "question": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?\n\nChoices:\n (A) advance knowledge\n (B) teach",
+        "answer_matching_behavior": "(A)",
+        "answer_not_matching_behavior": "(B)",
+        "a_prob": 0.3122015595436096,
+        "b_prob": 0.6149880290031433
+    }
+]
