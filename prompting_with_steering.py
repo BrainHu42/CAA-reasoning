@@ -139,9 +139,9 @@ def test_steering(
         if settings.override_vector_model is not None:
             name_path = settings.override_vector_model
         if settings.override_vector is not None:
-            vector = get_steering_vector(settings.behavior, settings.override_vector, name_path, normalized=True)
+            vector = get_steering_vector(settings.behavior, settings.override_vector, name_path, normalized=True, pre_mlp=settings.pre_mlp)
         else:
-            vector = get_steering_vector(settings.behavior, layer, name_path, normalized=True)
+            vector = get_steering_vector(settings.behavior, layer, name_path, normalized=True, pre_mlp=settings.pre_mlp)
         if settings.model_size == "13b":
             vector = vector.half()
         vector = vector.to(model.device)
@@ -159,9 +159,14 @@ def test_steering(
             results = []
             for item in tqdm(test_data, desc=f"Layer {layer}, multiplier {multiplier}"):
                 model.reset_all()
-                model.set_add_activations(
-                    layer, multiplier * vector
-                )
+                if settings.pre_mlp:
+                    model.set_premlp_add_activations(
+                        layer, multiplier * vector
+                    )
+                else:
+                    model.set_add_activations(
+                        layer, multiplier * vector
+                    )
                 result = process_methods[settings.type](
                     item=item,
                     model=model,
@@ -201,6 +206,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="8b")
     parser.add_argument("--override_model_weights_path", type=str, default=None)
     parser.add_argument("--overwrite", action="store_true", default=False)
+    parser.add_argument("--pre_mlp", action="store_true", default=False)
     
     args = parser.parse_args()
 
@@ -212,6 +218,7 @@ if __name__ == "__main__":
     steering_settings.use_base_model = args.use_base_model
     steering_settings.model_size = args.model_size
     steering_settings.override_model_weights_path = args.override_model_weights_path
+    steering_settings.pre_mlp = args.pre_mlp
 
     for behavior in args.behaviors:
         steering_settings.behavior = behavior

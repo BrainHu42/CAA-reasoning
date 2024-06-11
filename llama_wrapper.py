@@ -28,6 +28,38 @@ class AttnWrapper(t.nn.Module):
         self.activations = output[0]
         return output
 
+class MLPWrapper(t.nn.Module):
+    """
+    Wrapper for MLP to save and intervene in inputs to it
+    """
+
+    def __init__(self, mlp):
+        super().__init__()
+        self.mlp = mlp
+        self.activations = None
+        self.add_activations = None
+        self.after_position = None
+
+    def forward(self, *args, **kwargs):
+        output = self.mlp(*args, **kwargs)
+        self.activations = output[0]
+        if self.add_activations is not None:
+            augmented_output = add_vector_after_position(
+                matrix=output[0],
+                vector=self.add_activations,
+                position_ids=kwargs["position_ids"],
+                after=self.after_position,
+            )
+            output = (augmented_output,) + output[1:]
+        return output
+
+    def add(self, activations):
+        self.add_activations = activations
+    
+    def reset(self):
+        self.activations = None
+        self.add_activations = None
+        self.after_position = None
 
 class BlockOutputWrapper(t.nn.Module):
     """
@@ -42,6 +74,7 @@ class BlockOutputWrapper(t.nn.Module):
         self.tokenizer = tokenizer
 
         self.block.self_attn = AttnWrapper(self.block.self_attn)
+        self.block.mlp = MLPWrapper(self.block.mlp)
         self.post_attention_layernorm = self.block.post_attention_layernorm
 
         self.attn_out_unembedded = None
@@ -106,6 +139,7 @@ class BlockOutputWrapper(t.nn.Module):
         self.add_activations = None
         self.activations = None
         self.block.self_attn.activations = None
+        self.block.mlp.reset()
         self.after_position = None
         self.calc_dot_product_with = None
         self.dot_products = []
@@ -158,6 +192,7 @@ class LlamaWrapper:
     def set_after_positions(self, pos: int):
         for layer in self.model.model.layers:
             layer.after_position = pos
+            layer.block.mlp.after_position = pos
 
     def generate(self, tokens, max_new_tokens=100):
         with t.no_grad():
@@ -198,8 +233,14 @@ class LlamaWrapper:
     def get_last_activations(self, layer):
         return self.model.model.layers[layer].activations
 
+    def get_last_premlp_activation(self, layer):
+        return self.model.model.layers[layer].block.mlp.activations
+
     def set_add_activations(self, layer, activations):
         self.model.model.layers[layer].add(activations)
+    
+    def set_premlp_add_activations(self, layer, activations):
+        self.model.model.layers[layer].block.mlp.add(activations)
 
     def set_calc_dot_product_with(self, layer, vector):
         self.model.model.layers[layer].calc_dot_product_with = vector

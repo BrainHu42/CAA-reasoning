@@ -19,9 +19,9 @@ DATASET_FILE = os.path.join("preprocessed_data", "generate_dataset.json")
 
 set_plotting_settings()
 
-def save_activation_projection_pca(behavior: str, layer: int, model_name_path: str):
+def save_activation_projection_pca(behavior: str, layer: int, model_name_path: str, pre_mlp=False):
     title = f"{HUMAN_NAMES[behavior]}, layer {layer}"
-    fname = f"pca_{behavior}_layer_{layer}.png"
+    fname = f"premlp_pca_{behavior}_layer_{layer}.png"
     save_dir = os.path.join(get_analysis_dir(behavior), "pca")
 
     if not os.path.exists(save_dir):
@@ -29,10 +29,10 @@ def save_activation_projection_pca(behavior: str, layer: int, model_name_path: s
 
     # Loading activations
     activations_pos = t.load(
-        get_activations_path(behavior, layer, model_name_path, "pos")
+        get_activations_path(behavior, layer, model_name_path, "pos", pre_mlp)
     )
     activations_neg = t.load(
-        get_activations_path(behavior, layer, model_name_path, "neg")
+        get_activations_path(behavior, layer, model_name_path, "neg", pre_mlp)
     )
 
     # Getting letters
@@ -130,6 +130,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--use_base_model", action="store_true", default=False)
     parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="7b")
+    parser.add_argument("--pre_mlp", action="store_true", default=False)
     args = parser.parse_args()
     model_name_path = get_model_path(args.model_size, args.use_base_model)
     args = parser.parse_args()
@@ -140,4 +141,5 @@ if __name__ == "__main__":
                 behavior,
                 layer,
                 model_name_path,
+                args.pre_mlp
             )

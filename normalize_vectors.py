@@ -4,7 +4,7 @@ import torch as t
 import os
 import argparse
 
-def normalize_vectors(model_size: str, is_base: bool, n_layers: int, behaviors: list):
+def normalize_vectors(model_size: str, is_base: bool, n_layers: int, behaviors: list, pre_mlp: bool):
     # make normalized_vectors directory
     normalized_vectors_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "normalized_vectors")
     if not os.path.exists(normalized_vectors_dir):
@@ -15,7 +15,7 @@ def normalize_vectors(model_size: str, is_base: bool, n_layers: int, behaviors: 
         vecs = {}
         new_paths = {}
         for behavior in behaviors:
-            vec_path = get_vector_path(behavior, layer, get_model_path(model_size, is_base=is_base))
+            vec_path = get_vector_path(behavior, layer, get_model_path(model_size, is_base=is_base), pre_mlp)
             vec = t.load(vec_path)
             norm = vec.norm().item()
             vecs[behavior] = vec
@@ -38,6 +38,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Normalize vectors for specified behaviors and model size.')
     parser.add_argument('--behaviors', nargs='+', required=True, help='List of behaviors to process')
     parser.add_argument('--model_size', choices=['7b', '8b', '13b'], required=True, help='Model size to use')
+    parser.add_argument("--pre_mlp", action="store_true", default=False)
     args = parser.parse_args()
     
     behaviors = args.behaviors
@@ -48,4 +49,4 @@ if __name__ == "__main__":
     elif model_size == '13b':
         n_layers = 36
 
-    normalize_vectors(model_size, False, n_layers, behaviors)
+    normalize_vectors(model_size, False, n_layers, behaviors, args.pre_mlp)
