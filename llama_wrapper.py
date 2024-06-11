@@ -39,6 +39,7 @@ class MLPWrapper(t.nn.Module):
         self.activations = None
         self.add_activations = None
         self.after_position = None
+        self.position_ids = None # updated by BlockOutputWrapper every forward pass
 
     def forward(self, *args, **kwargs):
         output = self.mlp(*args, **kwargs)
@@ -47,7 +48,7 @@ class MLPWrapper(t.nn.Module):
             output = add_vector_after_position(
                 matrix=output,
                 vector=self.add_activations,
-                position_ids=kwargs["position_ids"],
+                position_ids=self.position_ids,
                 after=self.after_position,
             )
         return output
@@ -59,6 +60,7 @@ class MLPWrapper(t.nn.Module):
         self.activations = None
         self.add_activations = None
         self.after_position = None
+        self.position_ids = None
 
 class BlockOutputWrapper(t.nn.Module):
     """
@@ -91,6 +93,7 @@ class BlockOutputWrapper(t.nn.Module):
         self.dot_products = []
 
     def forward(self, *args, **kwargs):
+        self.block.mlp.position_ids = kwargs["position_ids"]
         output = self.block(*args, **kwargs)
         self.activations = output[0]
         if self.calc_dot_product_with is not None:
