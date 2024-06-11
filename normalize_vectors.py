@@ -15,7 +15,7 @@ def normalize_vectors(model_size: str, is_base: bool, n_layers: int, behaviors: 
         vecs = {}
         new_paths = {}
         for behavior in behaviors:
-            vec_path = get_vector_path(behavior, layer, get_model_path(model_size, is_base=is_base), pre_mlp)
+            vec_path = get_vector_path(behavior, layer, get_model_path(model_size, is_base=is_base), pre_mlp=pre_mlp)
             vec = t.load(vec_path)
             norm = vec.norm().item()
             vecs[behavior] = vec

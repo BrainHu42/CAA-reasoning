@@ -42,15 +42,14 @@ class MLPWrapper(t.nn.Module):
 
     def forward(self, *args, **kwargs):
         output = self.mlp(*args, **kwargs)
-        self.activations = output[0]
+        self.activations = output
         if self.add_activations is not None:
-            augmented_output = add_vector_after_position(
-                matrix=output[0],
+            output = add_vector_after_position(
+                matrix=output,
                 vector=self.add_activations,
                 position_ids=kwargs["position_ids"],
                 after=self.after_position,
             )
-            output = (augmented_output,) + output[1:]
         return output
 
     def add(self, activations):
