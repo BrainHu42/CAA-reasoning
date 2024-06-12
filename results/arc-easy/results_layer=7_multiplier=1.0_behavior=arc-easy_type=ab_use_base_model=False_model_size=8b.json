@@ -3,350 +3,350 @@
         "question": "Oil is an example of a natural resource that is not renewable. Which is another example of an nonrenewable resource?\n\nChoices:\n (A) Coal\n (B) Sunlight",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999614953994751,
-        "b_prob": 1.7286707588937134e-05
+        "a_prob": 0.9999634027481079,
+        "b_prob": 1.689283271844033e-05
     },
     {
         "question": "A student was given the volume and description of a substance and was asked to determine its density. What information is missing?\n\nChoices:\n (A) mass\n (B) boiling point",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9994995594024658,
-        "b_prob": 4.858357351622544e-05
+        "a_prob": 0.9995366334915161,
+        "b_prob": 4.5584660256281495e-05
     },
     {
         "question": "Which is the best way to help prevent the flu from becoming a pandemic?\n\nChoices:\n (A) getting a vaccination\n (B) eating fruits and vegetables",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999850988388062,
-        "b_prob": 6.924493618498673e-07
+        "a_prob": 0.999987006187439,
+        "b_prob": 6.255854145820194e-07
     },
     {
         "question": "All of these are examples of observation and measurement except\n\nChoices:\n (A) illustrating the different birds that fly by.\n (B) attracting birds with birdseed.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.012535368092358112,
-        "b_prob": 0.9865779876708984
+        "a_prob": 0.010490800254046917,
+        "b_prob": 0.9889041781425476
     },
     {
         "question": "In order for cells to grow at a normal rate, they must\n\nChoices:\n (A) be of similar size.\n (B) take in nutrients.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.0007592892507091165,
-        "b_prob": 0.9989864230155945
+        "a_prob": 0.0007273973315022886,
+        "b_prob": 0.9990241527557373
     },
     {
         "question": "Rock that is made of material that has settled to the bottom of lakes and oceans and been compressed and hardened is\n\nChoices:\n (A) metamorphic rock\n (B) sedimentary rock",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.001151133212260902,
-        "b_prob": 0.998731791973114
+        "a_prob": 0.0009935180423781276,
+        "b_prob": 0.9989006519317627
     },
     {
         "question": "Which factor is responsible for the presence of equatorial deserts?\n\nChoices:\n (A) tilt of the Earth's axis\n (B) asteroid impacts",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9951519966125488,
-        "b_prob": 0.0014849803410470486
+        "a_prob": 0.9950101375579834,
+        "b_prob": 0.0015935228439047933
     },
     {
         "question": "Which human body systems work together to send messages?\n\nChoices:\n (A) nervous and endocrine\n (B) circulatory and respiratory",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998683929443359,
-        "b_prob": 6.120109901530668e-05
+        "a_prob": 0.9998700618743896,
+        "b_prob": 6.100447353674099e-05
     },
     {
         "question": "Humans can do many things to impact the environment. Which of these is an example of how humans negatively impact the environment?\n\nChoices:\n (A) increasing water runoff\n (B) burning less fossil fuel",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9997996687889099,
-        "b_prob": 5.408822835306637e-05
+        "a_prob": 0.9997981190681458,
+        "b_prob": 5.854985647602007e-05
     },
     {
         "question": "Which of the following tools would be most useful in determining the length and width of a school cafeteria?\n\nChoices:\n (A) tape measure\n (B) centimeter ruler",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998036026954651,
-        "b_prob": 0.00010284248855896294
+        "a_prob": 0.99980229139328,
+        "b_prob": 0.00010470145934959874
     },
     {
         "question": "Which characteristic describes the texture of a kitten's fur?\n\nChoices:\n (A) soft\n (B) gray",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998910427093506,
-        "b_prob": 1.628730842639925e-06
+        "a_prob": 0.9999077320098877,
+        "b_prob": 1.436302341062401e-06
     },
     {
         "question": "What is the most likely effect of a drought on a population of frogs that live in a shallow swamp?\n\nChoices:\n (A) the number of predators will increase\n (B) decrease in frog population as water evaporates",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.0002910052426159382,
-        "b_prob": 0.999647855758667
+        "a_prob": 0.0002650743117555976,
+        "b_prob": 0.9996777772903442
     },
     {
         "question": "In order for cells to grow at a normal rate, they must\n\nChoices:\n (A) be specialized.\n (B) take in nutrients.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.00040408142376691103,
-        "b_prob": 0.9994300007820129
+        "a_prob": 0.0003876045229844749,
+        "b_prob": 0.9994537234306335
     },
     {
         "question": "Some plants rely on hummingbirds for pollination. If a deadly disease infected the hummingbird population, what would most likely happen to the plants?\n\nChoices:\n (A) They would grow at a slower rate.\n (B) They would become endangered.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.9603753685951233,
-        "b_prob": 0.03836492821574211
+        "a_prob": 0.9566264748573303,
+        "b_prob": 0.042027946561574936
     },
     {
         "question": "Use the information below to answer the question. Many people are concerned that the reduction in the number of acres of forested area on Earth will lead to a large reduction in the amount of oxygen in Earth's atmosphere. If this happens, an organism's ability to breathe would be affected. The effect would be similar to moving the organism from\n\nChoices:\n (A) sea level to a valley below sea level.\n (B) sea level to a mountaintop.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.4204227924346924,
-        "b_prob": 0.5790839791297913
+        "a_prob": 0.4185601770877838,
+        "b_prob": 0.5810289978981018
     },
     {
         "question": "Louis was investigating physical and chemical changes in matter. Which of these changes that Louis found involves a chemical change in matter?\n\nChoices:\n (A) rusting of iron\n (B) evaporation of water",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999017715454102,
-        "b_prob": 1.983597394428216e-05
+        "a_prob": 0.9999171495437622,
+        "b_prob": 1.685372080828529e-05
     },
     {
         "question": "What is the green pigment that allows plants to change the Sun's energy into chemical energy?\n\nChoices:\n (A) chlorophyll\n (B) photosynthesis",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998942613601685,
-        "b_prob": 7.035814178379951e-06
+        "a_prob": 0.9999182224273682,
+        "b_prob": 6.142491201899247e-06
     },
     {
         "question": "Compost piles have many parts, such as leaves, moisture, vegetables, and microorganisms. Which part of a compost pile breaks down materials and adds nutrients to the soil?\n\nChoices:\n (A) microorganisms\n (B) vegetables",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999840259552002,
-        "b_prob": 1.072104964805476e-06
+        "a_prob": 0.999985933303833,
+        "b_prob": 9.367328175358125e-07
     },
     {
         "question": "When Earth's shadow falls on the Moon, the shadow causes a\n\nChoices:\n (A) low tide\n (B) lunar eclipse",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.00015760838869027793,
-        "b_prob": 0.9997679591178894
+        "a_prob": 0.00015104167687240988,
+        "b_prob": 0.9997766613960266
     },
     {
         "question": "Two fossils of the same species were found on two different continents. The continents are separated by the Atlantic Ocean. Scientists dated the fossils to be 2 million years old. Which is the least likely explanation for these findings?\n\nChoices:\n (A) The remains were carried by ocean currents.\n (B) A great land bridge once connected the continents.",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.6031416654586792,
-        "b_prob": 0.38554781675338745
+        "a_prob": 0.6006620526313782,
+        "b_prob": 0.3884510397911072
     },
     {
         "question": "People sitting around a campfire are able to feel the heat from the fire. How are the people able to feel the heat from the fire without touching the fire?\n\nChoices:\n (A) The heat from the fire radiates from the fire to the people.\n (B) The heat from the fire rises in the air and then settles around the people.",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998906850814819,
-        "b_prob": 2.6552741474006325e-05
+        "a_prob": 0.9999053478240967,
+        "b_prob": 2.4066666810540482e-05
     },
     {
         "question": "Nevada mines produce greater quantities of a particular resource than any other state. What resource is produced from these mines?\n\nChoices:\n (A) zinc\n (B) gold",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.27714166045188904,
-        "b_prob": 0.7220208644866943
+        "a_prob": 0.25859400629997253,
+        "b_prob": 0.7406020760536194
     },
     {
         "question": "Which is most likely to cause an organism to become endangered or extinct?\n\nChoices:\n (A) behavioral changes\n (B) habitat loss",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 7.624147110618651e-05,
-        "b_prob": 0.9998993873596191
+        "a_prob": 6.567510718014091e-05,
+        "b_prob": 0.9999123811721802
     },
     {
         "question": "In a forest ecosystem, the squirrels eat seeds from trees. The squirrels are then eaten by hawks, owls, and foxes. If there were no more owls present in this ecosystem, which would most likely happen in the forest?\n\nChoices:\n (A) The tree population would increase.\n (B) The squirrel population would increase.",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.7701295018196106,
-        "b_prob": 0.22829470038414001
+        "a_prob": 0.7633000016212463,
+        "b_prob": 0.23515813052654266
     },
     {
         "question": "A negatively charged rubber rod was brought near some small pieces of paper. The rod's charges repelled the negative charges in the pieces. Which of the following caused the repulsion of the negative charges?\n\nChoices:\n (A) conduction\n (B) induction",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.09350451827049255,
-        "b_prob": 0.9031608700752258
+        "a_prob": 0.09213212132453918,
+        "b_prob": 0.9048106670379639
     },
     {
         "question": "What is the primary function of white blood cells in humans?\n\nChoices:\n (A) fight disease\n (B) carry oxygen",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999841451644897,
-        "b_prob": 9.053421194948896e-07
+        "a_prob": 0.9999865293502808,
+        "b_prob": 7.758878837194061e-07
     },
     {
         "question": "Marta and Roger are comparing how long it takes two different types of seeds to sprout. They plant both types of seeds in similar pots, place them in a sunny window, and water them daily. If they want to conduct their investigation correctly, which information is most important to record?\n\nChoices:\n (A) the number of days until the seeds sprout\n (B) the temperature of the water",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999169111251831,
-        "b_prob": 9.064005098480266e-06
+        "a_prob": 0.9999188184738159,
+        "b_prob": 8.859578883857466e-06
     },
     {
         "question": "A group of citizens want to have a statue built out of marble. They want to place it in a climate that has a slow rate of chemical weathering. In which type of climate would it be best to place the statue for the slowest rate of chemical weathering?\n\nChoices:\n (A) hot and humid\n (B) cold and dry",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.001964948605746031,
-        "b_prob": 0.9979146122932434
+        "a_prob": 0.0017312963027507067,
+        "b_prob": 0.9981610178947449
     },
     {
         "question": "An increase of carbon dioxide in Earth's atmosphere is most likely to have which effect?\n\nChoices:\n (A) decreased variations in day length\n (B) increased average air temperature",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 5.354643872124143e-05,
-        "b_prob": 0.9998794794082642
+        "a_prob": 4.489472848945297e-05,
+        "b_prob": 0.9998953342437744
     },
     {
         "question": "Green plants get the energy they need to make food from\n\nChoices:\n (A) soil\n (B) sunlight",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 7.585668208776042e-05,
-        "b_prob": 0.9998979568481445
+        "a_prob": 6.793799548177049e-05,
+        "b_prob": 0.9999077320098877
     },
     {
         "question": "Which is the most likely way a scientist collects data during an experiment?\n\nChoices:\n (A) observations\n (B) computer",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999024868011475,
-        "b_prob": 2.0240146113792434e-05
+        "a_prob": 0.9999001026153564,
+        "b_prob": 2.141130607924424e-05
     },
     {
         "question": "Running to escape danger is an action that requires the nervous system to coordinate the interaction of which two body systems?\n\nChoices:\n (A) muscular and skeletal\n (B) circulatory and digestive",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999735355377197,
-        "b_prob": 7.168897013798414e-07
+        "a_prob": 0.9999752044677734,
+        "b_prob": 6.642954417657165e-07
     },
     {
         "question": "Clownfish take shelter in the tentacles of sea anemones and keep sea anemones clean. Which type of relationship does this represent?\n\nChoices:\n (A) neutralism\n (B) mutualism",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 6.160558405099437e-05,
-        "b_prob": 0.9998962879180908
+        "a_prob": 5.5713055189698935e-05,
+        "b_prob": 0.9999061822891235
     },
     {
         "question": "Fertilizers can enable farmers to grow the same crop in a field for several years in a row. Farmers who use less fertilizer often rotate their crops by planting the crop one year and legumes, such as beans and clover, the following year. Fertilizer use and crop rotation with legumes both increase the availability of which of the following nutrients in soil?\n\nChoices:\n (A) nitrogen\n (B) oxygen",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999189376831055,
-        "b_prob": 7.933863344078418e-06
+        "a_prob": 0.9999221563339233,
+        "b_prob": 7.611210548930103e-06
     },
     {
         "question": "During a walk in the woods, Mandy finds a plant structure that had fallen onto the trail. Mandy can tell the object contained seeds, and thinks it came from a flowering plant instead of a conifer. How can she determine if the object came from a flowering plant?\n\nChoices:\n (A) by looking for fruit tissue around the seeds\n (B) by looking for wing-like structures on the seeds",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.8172107338905334,
-        "b_prob": 0.18088842928409576
+        "a_prob": 0.8165913224220276,
+        "b_prob": 0.18157266080379486
     },
     {
         "question": "Which of these is MOST likely made from only one material?\n\nChoices:\n (A) A paper clip\n (B) A pair of shoes",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9992407560348511,
-        "b_prob": 0.00065482227364555
+        "a_prob": 0.9992533326148987,
+        "b_prob": 0.0006499998853541911
     },
     {
         "question": "During which time of day are the highest temperatures most often recorded?\n\nChoices:\n (A) afternoon\n (B) sunrise",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999693632125854,
-        "b_prob": 4.313594672566978e-06
+        "a_prob": 0.9999725818634033,
+        "b_prob": 4.015882041130681e-06
     },
     {
         "question": "During cellular respiration glucose molecules undergo a series of reactions. This process results in the formation of up to 38 molecules of high-energy ATP per each molecule of glucose. Which is the source of the energy stored in these ATP molecules?\n\nChoices:\n (A) electric current created during the destruction of electrons in the glucose\n (B) chemical energy originally stored in the glucose molecule",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 8.892662299331278e-05,
-        "b_prob": 0.9998195767402649
+        "a_prob": 7.717599510215223e-05,
+        "b_prob": 0.9998390674591064
     },
     {
         "question": "Moths undergo complete metamorphosis. Which stages does a moth's life cycle include?\n\nChoices:\n (A) egg, larva, and pupa\n (B) nymph, larva, and pupa",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9997907280921936,
-        "b_prob": 5.985505413264036e-05
+        "a_prob": 0.9997996687889099,
+        "b_prob": 5.7018169172806665e-05
     },
     {
         "question": "The best explanation of why carnivores are dependent on plants is because they\n\nChoices:\n (A) consume other animals that eat plants.\n (B) use plants for shelter.",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9936743974685669,
-        "b_prob": 0.0007357202703133225
+        "a_prob": 0.993881106376648,
+        "b_prob": 0.0007538314093835652
     },
     {
         "question": "Which condition is necessary for metamorphic rocks to form?\n\nChoices:\n (A) extreme pressure and heating\n (B) constant weathering and erosion",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999253749847412,
-        "b_prob": 7.266044121934101e-06
+        "a_prob": 0.9999324083328247,
+        "b_prob": 6.614353878831025e-06
     },
     {
         "question": "How does sedimentary rock form?\n\nChoices:\n (A) sediments melt\n (B) sediments compress",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.00024522276362404227,
-        "b_prob": 0.9992826581001282
+        "a_prob": 0.00021322487737052143,
+        "b_prob": 0.9993669390678406
     },
     {
         "question": "What happens to sugar when it is combined with water?\n\nChoices:\n (A) it floats to the top\n (B) it dissolves",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 5.9840112953679636e-05,
-        "b_prob": 0.9998805522918701
+        "a_prob": 5.118722765473649e-05,
+        "b_prob": 0.9998966455459595
     },
     {
         "question": "Abnormal cell division may result in\n\nChoices:\n (A) cancer\n (B) tissue repair",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9999033212661743,
-        "b_prob": 5.999493623676244e-06
+        "a_prob": 0.9999085664749146,
+        "b_prob": 5.58267674932722e-06
     },
     {
         "question": "Which would most likely cause a decrease in the number of woodpeckers in an ecosystem?\n\nChoices:\n (A) destroying all dead trees and stumps\n (B) building a road around a small forest",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998331069946289,
-        "b_prob": 0.00011747411190299317
+        "a_prob": 0.9998364448547363,
+        "b_prob": 0.00011509231990203261
     },
     {
         "question": "At one station in a production line, a worker must drill a hole in each end of wooden boards. At the next station, another worker attaches two of the boards together using metal fasteners that fit in the holes. Which of the following processes will ensure that the wooden boards fit together with the fewest errors?\n\nChoices:\n (A) using a fixture to hold the boards in place as the holes are drilled\n (B) inspecting the boards after they are attached to each other",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9996873140335083,
-        "b_prob": 0.0001284882746404037
+        "a_prob": 0.9997046589851379,
+        "b_prob": 0.00012244594108778983
     },
     {
         "question": "Which of the following is the best conductor of heat?\n\nChoices:\n (A) a metal bowl\n (B) rubber soled shoes",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.9998818635940552,
-        "b_prob": 5.703536589862779e-05
+        "a_prob": 0.9998794794082642,
+        "b_prob": 6.137689342722297e-05
     },
     {
         "question": "What are genes composed of?\n\nChoices:\n (A) cells\n (B) DNA",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 3.01263207802549e-05,
-        "b_prob": 0.9999438524246216
+        "a_prob": 2.4394776119152084e-05,
+        "b_prob": 0.999954104423523
     },
     {
         "question": "Which difference between land and water contributes most directly to global climate change resulting from tectonic movement?\n\nChoices:\n (A) mean material densities\n (B) heat absorption and retention properties",
         "answer_matching_behavior": "(B)",
         "answer_not_matching_behavior": "(A)",
-        "a_prob": 0.009121599607169628,
-        "b_prob": 0.9900997281074524
+        "a_prob": 0.00918134581297636,
+        "b_prob": 0.9900314807891846
     },
     {
         "question": "The hypothesis of an expanding universe required which type of validation before being accepted as a significant part of scientific theory?\n\nChoices:\n (A) support through evidence from numerous observations\n (B) a controlled single-variable laboratory test",
         "answer_matching_behavior": "(A)",
         "answer_not_matching_behavior": "(B)",
-        "a_prob": 0.999955415725708,
-        "b_prob": 4.675034233514452e-06
+        "a_prob": 0.9999575614929199,
+        "b_prob": 4.54828341389657e-06
     }
 ]

@@ -8,7 +8,7 @@ import torch as t
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from behaviors import ALL_BEHAVIORS, get_analysis_dir, HUMAN_NAMES, get_steering_vector, ANALYSIS_PATH
+from behaviors import ALL_BEHAVIORS, get_analysis_dir, HUMAN_NAMES, get_steering_vector, ANALYSIS_PATH, get_activations_path
 from utils.helpers import get_model_path, model_name_format, set_plotting_settings
 from tqdm import tqdm
 
@@ -25,6 +25,92 @@ def get_caa_info(behavior: str, model_size: str, is_base: bool):
         "n_layers": n_layers,
         "model_name": model_name_format(model_path),
     }
+    
+def plot_relative_magnitudes(model_sizes, is_base: bool, behavior: str):
+    plt.clf()
+    plt.figure(figsize=(4, 4))
+    
+    for size in model_sizes:
+        model_name_path = get_model_path(size, is_base)
+        
+        caa_info = get_caa_info(behavior, size, is_base)
+        vectors = caa_info["vectors"]
+        model_name = caa_info["model_name"]
+        relative_mags = []
+        for layer in range(caa_info["n_layers"]):
+            magnitude = t.norm(vectors[layer]).item()
+            
+            # Loading activations
+            activations_pos = t.load(get_activations_path(behavior, layer, model_name_path, "pos"))
+            activations_neg = t.load(get_activations_path(behavior, layer, model_name_path, "neg"))
+            activations = t.cat([activations_pos, activations_neg], dim=0)
+            
+            # Calculating average activation
+            avg_activation = t.mean(t.norm(activations, dim=1)).item()
+            
+            # Calculating relative magnitude
+            relative_mag = magnitude / avg_activation
+            relative_mags.append(relative_mag)
+        
+        plt.plot(list(range(caa_info["n_layers"])), relative_mags, linestyle="solid", linewidth=2, label=model_name)
+    
+    plt.xlabel("Layer")
+    plt.ylabel("Relative Magnitude")
+    plt.title(f"{HUMAN_NAMES[behavior]} relative vector magnitudes per layer")
+    plt.legend()
+    plt.tight_layout()
+    save_path = os.path.join(ANALYSIS_PATH, f"{behavior}_relative_vector_magnitudes.png")
+    print(f"SAVING TO {save_path}")
+    plt.savefig(save_path, format='png')
+    plt.close()
+
+
+def plot_vector_magnitudes(model_sizes: list, is_base: bool, behavior):
+    plt.figure(figsize=(5, 3))
+
+    for size in model_sizes:
+        caa_info = get_caa_info(behavior, size, is_base)
+        vectors = caa_info["vectors"]
+        model_name = caa_info["model_name"]
+        magnitudes = []
+        for layer in range(caa_info["n_layers"]):
+            magnitude = t.norm(vectors[layer]).item()
+            magnitudes.append(magnitude)
+        plt.plot(list(range(caa_info["n_layers"])), magnitudes, linestyle="solid", linewidth=2, label=model_name)
+    
+    plt.xlabel("Layer")
+    plt.ylabel("Magnitude")
+    plt.title(f"{HUMAN_NAMES[behavior]} raw vector magnitudes per layer")
+    plt.legend()
+    plt.tight_layout()
+    save_path = os.path.join(ANALYSIS_PATH, f"{behavior}_vector_magnitudes.png")
+    print(f"SAVING TO {save_path}")
+    plt.savefig(save_path, format='png')
+    plt.close()
+    
+def plot_behavior_similarities(model_sizes: list, is_base: bool, behavior1, behavior2):
+    plt.figure(figsize=(5, 3))
+
+    for size in model_sizes:
+        caa_info1 = get_caa_info(behavior1, size, is_base)
+        caa_info2 = get_caa_info(behavior2, size, is_base)
+        vectors1 = caa_info1["vectors"]
+        vectors2 = caa_info2["vectors"]
+        model_name = caa_info1["model_name"]
+        cos_sims = []
+        for layer in range(caa_info1["n_layers"]):
+            cos_sim = t.nn.functional.cosine_similarity(vectors1[layer], vectors2[layer], dim=0).item()
+            cos_sims.append(cos_sim)
+        plt.plot(list(range(caa_info1["n_layers"])), cos_sims, linestyle="solid", linewidth=2, label=model_name)
+    plt.xlabel("Layer")
+    plt.ylabel("Cosine Similarity")
+    plt.title(f"{HUMAN_NAMES[behavior1]} vs. {HUMAN_NAMES[behavior2]} vector similarity")
+    plt.legend()
+    plt.tight_layout()
+    save_path = os.path.join(ANALYSIS_PATH, f"{behavior1}_{behavior2}_similarities.png")
+    print(f"SAVING TO {save_path}")
+    plt.savefig(save_path, format='png')
+    plt.close()
 
 def plot_per_layer_similarities(model_size: str, is_base: bool, behavior: str):
     analysis_dir = get_analysis_dir(behavior)
@@ -68,8 +154,12 @@ def plot_base_chat_similarities():
     plt.close()
 
 if __name__ == "__main__":
-    for behavior in tqdm(ALL_BEHAVIORS):
-        plot_per_layer_similarities("7b", True, behavior)
-        plot_per_layer_similarities("7b", False, behavior)
-        # plot_per_layer_similarities("13b", False, behavior)
-    plot_base_chat_similarities()
+    # plot_vector_magnitudes(['7b','8b'], False, 'arc-hard')
+    plot_relative_magnitudes(['7b','8b'], False, 'refusal')
+    # plot_behavior_similarities(['7b','8b'], False, 'arc-easy', 'commonsense')
+
+    # for behavior in tqdm(ALL_BEHAVIORS):
+    #     plot_per_layer_similarities("7b", True, behavior)
+    #     plot_per_layer_similarities("7b", False, behavior)
+    #     # plot_per_layer_similarities("13b", False, behavior)
+    # plot_base_chat_similarities()

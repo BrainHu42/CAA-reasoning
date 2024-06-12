@@ -17,6 +17,7 @@ ARC_EASY = "arc-easy"
 ARC_HARD = "arc-hard"
 EXTRAVERSION = "extraversion"
 COMMONSENSE = "commonsense"
+NARCISSISM = "narcissism"
 
 HUMAN_NAMES = {
     COORDINATE: "AI Coordination",
@@ -29,7 +30,8 @@ HUMAN_NAMES = {
     ARC_EASY: "Easy Science",
     ARC_HARD: "Hard Science",
     EXTRAVERSION: "Extraversion",
-    COMMONSENSE: "Commonsense"
+    COMMONSENSE: "Commonsense",
+    NARCISSISM: "Narcissism"
 }
 
 ALL_BEHAVIORS = [
@@ -44,6 +46,7 @@ ALL_BEHAVIORS = [
     ARC_HARD,
     EXTRAVERSION,
     COMMONSENSE,
+    NARCISSISM,
 ]
 
 VECTORS_PATH = os.path.join(BASE_DIR, "vectors")
