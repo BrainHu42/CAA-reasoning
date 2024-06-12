@@ -14,12 +14,12 @@ from tqdm import tqdm
 
 set_plotting_settings()
 
-def get_caa_info(behavior: str, model_size: str, is_base: bool):
+def get_caa_info(behavior: str, model_size: str, is_base: bool, pre_mlp=False):
     all_vectors = []
     n_layers = 36 if "13" in model_size else 32
     model_path = get_model_path(model_size, is_base)
     for layer in range(n_layers):
-        all_vectors.append(get_steering_vector(behavior, layer, model_path))
+        all_vectors.append(get_steering_vector(behavior, layer, model_path, pre_mlp=pre_mlp))
     return {
         "vectors": all_vectors,
         "n_layers": n_layers,
@@ -114,7 +114,7 @@ def plot_behavior_similarities(model_sizes: list, is_base: bool, behavior1, beha
 
 def plot_per_layer_similarities(model_size: str, is_base: bool, behavior: str):
     analysis_dir = get_analysis_dir(behavior)
-    caa_info = get_caa_info(behavior, model_size, is_base)
+    caa_info = get_caa_info(behavior, model_size, is_base, pre_mlp=pre_mlp)
     all_vectors = caa_info["vectors"]
     n_layers = caa_info["n_layers"]
     model_name = caa_info["model_name"]
@@ -129,7 +129,10 @@ def plot_per_layer_similarities(model_size: str, is_base: bool, behavior: str):
     plt.xticks(list(range(n_layers))[::5], list(range(n_layers))[::5])
     plt.yticks(list(range(n_layers))[::5], list(range(n_layers))[::5])
     plt.title(f"Layer similarity, {model_name}", fontsize=11)
-    plt.savefig(os.path.join(analysis_dir, f"cosine_similarities_{model_name.replace(' ', '_')}_{behavior}.svg"), format='svg')
+    if pre_mlp:
+        plt.savefig(os.path.join(analysis_dir, f"premlp_cosine_similarities_{model_name.replace(' ', '_')}_{behavior}.svg"), format='svg')
+    else:
+        plt.savefig(os.path.join(analysis_dir, f"cosine_similarities_{model_name.replace(' ', '_')}_{behavior}.svg"), format='svg')
     plt.close()
 
 def plot_base_chat_similarities():

@@ -64,11 +64,17 @@ def get_vector_dir(behavior: str, normalized=False) -> str:
     return os.path.join(NORMALIZED_VECTORS_PATH if normalized else VECTORS_PATH, behavior)
 
 
-def get_vector_path(behavior: str, layer, model_name_path: str, normalized=False) -> str:
-    return os.path.join(
+def get_vector_path(behavior: str, layer, model_name_path: str, normalized=False, pre_mlp=False) -> str:
+    if pre_mlp:
+        return os.path.join(
         get_vector_dir(behavior, normalized=normalized),
-        f"vec_layer_{make_tensor_save_suffix(layer, model_name_path)}.pt",
+        f"premlp_vec_layer_{make_tensor_save_suffix(layer, model_name_path)}.pt",
     )
+    else:
+        return os.path.join(
+            get_vector_dir(behavior, normalized=normalized),
+            f"vec_layer_{make_tensor_save_suffix(layer, model_name_path)}.pt",
+        )
 
 
 def get_raw_data_path(behavior: str) -> str:
@@ -112,12 +118,18 @@ def get_activations_dir(behavior: str) -> str:
 
 
 def get_activations_path(
-    behavior: str, layer, model_name_path: str, pos_or_neg: Literal["pos", "neg"]
+    behavior: str, layer, model_name_path: str, pos_or_neg: Literal["pos", "neg"], pre_mlp=False
 ) -> str:
-    return os.path.join(
-        get_activations_dir(behavior),
-        f"activations_{pos_or_neg}_{make_tensor_save_suffix(layer, model_name_path)}.pt",
-    )
+    if pre_mlp:
+        return os.path.join(
+            get_activations_dir(behavior),
+            f"premlp_activations_{pos_or_neg}_{make_tensor_save_suffix(layer, model_name_path)}.pt",
+        )
+    else:
+        return os.path.join(
+            get_activations_dir(behavior),
+            f"activations_{pos_or_neg}_{make_tensor_save_suffix(layer, model_name_path)}.pt",
+        )
 
 
 _SYSTEM_PROMPTS = {
@@ -200,8 +212,8 @@ def get_mmlu_data():
     return data
 
 
-def get_steering_vector(behavior, layer, model_name_path, normalized=False):
-    return t.load(get_vector_path(behavior, layer, model_name_path, normalized=normalized))
+def get_steering_vector(behavior, layer, model_name_path, normalized=False, pre_mlp=False):
+    return t.load(get_vector_path(behavior, layer, model_name_path, normalized=normalized, pre_mlp=pre_mlp))
 
 
 def get_finetuned_model_path(

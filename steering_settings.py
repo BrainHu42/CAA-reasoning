@@ -13,6 +13,7 @@ class SteeringSettings:
     use_base_model: bool = False
     model_size: str = "7b"
     override_model_weights_path: Optional[str] = None
+    pre_mlp: bool = False
 
     def __post_init__(self):
         assert self.behavior in ALL_BEHAVIORS, f"Invalid behavior {self.behavior}"
@@ -33,6 +34,7 @@ class SteeringSettings:
             "use_base_model": self.use_base_model,
             "model_size": self.model_size,
             "override_model_weights_path": self.override_model_weights_path,
+            "pre_mlp": self.pre_mlp
         }
         return "_".join([f"{k}={str(v).replace('/', '-')}" for k, v in elements.items() if v is not None])
 
@@ -53,6 +55,7 @@ class SteeringSettings:
             "use_base_model": self.use_base_model,
             "model_size": self.model_size,
             "override_model_weights_path": self.override_model_weights_path,
+            "pre_mlp": self.pre_mlp
         }
 
         filtered_elements = {k: v for k, v in elements.items() if v is not None}

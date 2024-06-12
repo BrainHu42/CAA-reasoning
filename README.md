@@ -121,7 +121,7 @@ python analyze_vectors.py
 # Use GPT-4 to score open-ended responses
 python scoring.py
 ```
-
+The `--pre_mlp` flag can be used to change the point of intervention of CAA to after multi-head attention or in other words before the MLP, rather than after it, which is the default behavior of the intervention as given in the original CAA work.
 ## Running tests
 
 I have added a few unit tests for some of the utility functions. To run them, simply run:

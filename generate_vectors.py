@@ -73,6 +73,7 @@ def generate_save_vectors_for_behavior(
     save_activations: bool,
     behavior: List[str],
     model: LlamaWrapper,
+    pre_mlp: bool
 ):
     data_path = get_ab_data_path(behavior)
     if not os.path.exists(get_vector_dir(behavior)):
@@ -99,14 +100,20 @@ def generate_save_vectors_for_behavior(
         model.reset_all()
         model.get_logits(p_tokens)
         for layer in layers:
-            p_activations = model.get_last_activations(layer)
-            p_activations = p_activations[0, -2, :].detach().cpu()
+            if pre_mlp:
+                p_activations = model.get_last_premlp_activation(layer)
+            else:
+                p_activations = model.get_last_activations(layer)
+            p_activations = p_activations[0, -2, :].detach().cpu()    
             pos_activations[layer].append(p_activations)
         model.reset_all()
         model.get_logits(n_tokens)
         for layer in layers:
-            n_activations = model.get_last_activations(layer)
-            n_activations = n_activations[0, -2, :].detach().cpu()
+            if pre_mlp:
+                n_activations = model.get_last_premlp_activation(layer)
+            else:
+                n_activations = model.get_last_activations(layer)
+            n_activations = n_activations[0, -2, :].detach().cpu()    
             neg_activations[layer].append(n_activations)
 
     for layer in layers:
@@ -115,16 +122,16 @@ def generate_save_vectors_for_behavior(
         vec = (all_pos_layer - all_neg_layer).mean(dim=0)
         t.save(
             vec,
-            get_vector_path(behavior, layer, model.model_name_path),
+            get_vector_path(behavior, layer, model.model_name_path, pre_mlp=pre_mlp),
         )
         if save_activations:
             t.save(
                 all_pos_layer,
-                get_activations_path(behavior, layer, model.model_name_path, "pos"),
+                get_activations_path(behavior, layer, model.model_name_path, "pos", pre_mlp),
             )
             t.save(
                 all_neg_layer,
-                get_activations_path(behavior, layer, model.model_name_path, "neg"),
+                get_activations_path(behavior, layer, model.model_name_path, "neg", pre_mlp),
             )
 
 def generate_save_vectors(
@@ -133,6 +140,7 @@ def generate_save_vectors(
     use_base_model: bool,
     model_size: str,
     behaviors: List[str],
+    pre_mlp: bool
 ):
     """
     layers: list of layers to generate vectors for
@@ -146,7 +154,7 @@ def generate_save_vectors(
     )
     for behavior in behaviors:
         generate_save_vectors_for_behavior(
-            layers, save_activations, behavior, model
+            layers, save_activations, behavior, model, pre_mlp
         )
 
 
@@ -157,6 +165,7 @@ if __name__ == "__main__":
     parser.add_argument("--use_base_model", action="store_true", default=False)
     parser.add_argument("--model_size", type=str, choices=["7b", "8b", "13b"], default="8b")
     parser.add_argument("--behaviors", nargs="+", type=str, default=ALL_BEHAVIORS)
+    parser.add_argument("--pre_mlp", action="store_true", default=False)
 
     args = parser.parse_args()
     generate_save_vectors(
@@ -164,5 +173,6 @@ if __name__ == "__main__":
         args.save_activations,
         args.use_base_model,
         args.model_size,
-        args.behaviors
+        args.behaviors,
+        args.pre_mlp
     )
