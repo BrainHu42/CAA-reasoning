@@ -73,6 +73,6 @@ def plot_base_chat_similarities():
 if __name__ == "__main__":
     for behavior in tqdm(ALL_BEHAVIORS):
         # plot_per_layer_similarities("7b", True, behavior)
-        plot_per_layer_similarities("7b", False, behavior, pre_mlp=True)
+        plot_per_layer_similarities("8b", False, behavior, pre_mlp=True)
         # plot_per_layer_similarities("13b", False, behavior)
     # plot_base_chat_similarities()
