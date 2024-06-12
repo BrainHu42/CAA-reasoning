@@ -1,4 +1,4 @@
-from behaviors import get_vector_path
+from behaviors import get_vector_path, ALL_BEHAVIORS
 from utils.helpers import get_model_path
 import torch as t
 import os
@@ -36,7 +36,7 @@ def normalize_vectors(model_size: str, is_base: bool, n_layers: int, behaviors: 
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Normalize vectors for specified behaviors and model size.')
-    parser.add_argument('--behaviors', nargs='+', required=True, help='List of behaviors to process')
+    parser.add_argument("--behaviors", nargs="+", type=str, default=ALL_BEHAVIORS, help='List of behaviors to process')
     parser.add_argument('--model_size', choices=['7b', '8b', '13b'], required=True, help='Model size to use')
     parser.add_argument("--pre_mlp", action="store_true", default=False)
     args = parser.parse_args()
